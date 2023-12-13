@@ -11,3 +11,5 @@ x.pop("chair")   # to remove the  key
 print(x)
 x.update({"chair":500})   # to add the  key
 print(x)
+x.popitem()     # to delete last key
+print(x)
