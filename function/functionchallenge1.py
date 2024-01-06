@@ -22,11 +22,18 @@
 
 # --------------------------------------------------
 
-def add(a, b):
-    return a + b
-def square(c):
-    return c * c
-print(add(2, 4))
-print(square(10))
+# def add(a, b):
+#     return a + b
+#
+#
+# def square(c):
+#     return c * c
+#
+#
+# print(add(2, 4))
+# print(square(10))
+#
+# print(square(add(a=2, b=3)))
 
-print(square(add(a=1,b=2)))
+
+lambda x:x*(x+89)**7
