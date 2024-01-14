@@ -15,7 +15,8 @@ from tkinter import *
 root=Tk()
 
 l1=Label(root,text="username")
-l2=Label(root,text="password")
+l2=Label(root,text="password",bg="green")
+
 l3=Label(root,text="confirm password")
 l4=Label(root,text="mobile")
 l5=Label(root,text="age")
@@ -30,6 +31,7 @@ entry6=Entry(root)
 l1.grid(row=0,column=0)
 entry1.grid(row=0,column=1)
 l2.grid(row=1,column=0)
+
 entry2.grid(row=1,column=1)
 l3.grid(row=2,column=0)
 entry3.grid(row=2,column=1)
